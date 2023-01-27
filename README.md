@@ -32,3 +32,6 @@ pharmer will carry through the above value into all empty cells until it reaches
 that already has a value. Check the Type column to make sure there aren't any drugs without type
 already filled in to prevent erroneous Type labeling.
 ```
+
+# Example Input
+See `mjbs_druglist.xlsx` for a properly formatted file in `tests/`
