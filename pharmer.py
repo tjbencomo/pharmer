@@ -39,21 +39,56 @@ def parse_args(args):
         sheets.append(args[i])
     return drugfp, outPrefix, tagPrefix, sheets
 
-def make_cards(df):
+def merge_cards(cards):
+    cardDict = {}
+    for card in cards:
+        if card[0] not in cardDict:
+            cardDict[card[0]] = [card[1]]
+        else:
+            cardDict[card[0]].append(card[1])
     cards = []
+    for question in cardDict.keys():
+        answers = '<br>'.join(cardDict[question])
+        cards.append([question, answers])
+    return cards
+
+def isEmpty(cell1, cell2):
+    x = not (isinstance(cell1, str) and isinstance(cell2, str))
+    # print(cell1)
+    return x
+
+def make_cards(df):
+    # Remove rows with missing prototype column
+    df = df.dropna(subset = ['Prototypes'])
+    # print(df)
+    cards = []
+    typeCards = [] #list of drugs and their type
     if 'Serious adverse effects' not in df.columns:
         raise ValueError("Serious adverse effects column is missing. May be named differently")
     # Make Type - Prototype cards
-    # for index, row in df.iterrows():
-    #     cards.append([f"{row['Type']} drugs", row['Prototypes']])
-    # Make Prototype - MoA cards
+    # print("Making type-prototype cards")
     for index, row in df.iterrows():
+        if isEmpty(row['Type'], row['Prototypes']):
+            continue
+        typeCards.append([f"{row['Type']} drugs", row['Prototypes']])
+    typeCards = merge_cards(typeCards)
+    # Make Prototype - MoA cards
+    # print("Making MoA cards")
+    for index, row in df.iterrows():
+        if isEmpty(row['Type'], row['Mechanism of Action']):
+            continue
         cards.append([f"{row['Prototypes'].strip()} MoA", row['Mechanism of Action'].strip()])
     # Make Prototype - Theraputic uses cards
+    # print("Making uses cards")
     for index, row in df.iterrows():
+        if isEmpty(row['Type'], row['Therapeutic Uses']):
+            continue
         cards.append([f"{row['Prototypes'].strip()} uses", row['Therapeutic Uses'].strip()])
     # Make Prototype - Adverse effects cards
+    # print("Making AE cards")
     for index, row in df.iterrows():
+        if isEmpty(row['Type'], row['Serious adverse effects']):
+            continue
         cards.append([f"{row['Prototypes'].strip()} adverse effects", row['Serious adverse effects'].strip()])
     # Remove cards with empty answers - no data for this field
     cards = [card for card in cards if not isinstance(card[1], float)]
@@ -62,26 +97,33 @@ def make_cards(df):
     for card in cards:
         card[0] = card[0].replace("\n", "<br>")
         card[1] = card[1].replace("\n", "<br>").replace(";", ".")
+    for card in typeCards:
+        card[0] = card[0].replace("\n", "<br>")
+        card[1] = card[1].replace("\n", "<br>").replace(";", ".")
+    cards = typeCards + cards
     return cards
 
 def write_cards_file(cards, sheet, filePrefix, tagPrefix):
+    sheet = sheet.replace(' ', '_')
     fn = f"{filePrefix}_{sheet}.txt"
     tag = f"tags:{tagPrefix}::PHARM_{sheet}"
     print(f"Writing file {fn} with tag {tag} with {len(cards)} cards")
     with open(fn, 'w') as f:
         f.write(f"{tag}\n")
         for card in cards:
-            print(f"{card[0]}; {card[1]}")
+            # print(f"{card[0]}; {card[1]}")
             f.write(f"{card[0]}; {card[1]}\n")
 
+def print_cards(cards):
+    print(f"Printing {len(cards)} cards")
+    for card in cards:
+        print(card)
+    
 def process_sheet(fn, sheetName, outputPrefix, tagPrefix):
     df = pd.read_excel(fn, sheet_name = sheetName, skiprows = 2)
     df.Type = pd.Series(df.Type).fillna(method='ffill')
     cards = make_cards(df)
     write_cards_file(cards, sheetName, outputPrefix, tagPrefix)
-    # for card in cards:
-    #     print(card)
-    
 
 def main():
     fp, outputPrefix, tagPrefix,  sheets = parse_args(sys.argv)
