@@ -1,0 +1,28 @@
+tags:Test::PHARM_Topical
+Triamcinolone MoA; Binds glucocorticoid receptor to change gene expression and cell signaling leading to inhibition of leukotriene and prostaglandin synthesis.<br>Inhibition of leukocyte function, and alterations in leukocyte trafficking
+Tacrolimus MoA; Binds cyclophillin and inhibits calcineurin.<br>Prevents NFAT activation and cytokine transcription
+Calcipotriene MoA; Vitamin D3 analog. Inhibits proliferation and stimulates differentiation of keratinocytes
+Mupirocin MoA; Inhibits isoleucyl-tRNA synthase
+Clindamycin MoA; Inhibits bacterial 50S ribosomal subunit
+Tretinoin MoA; Retinoic acid receptor (RAR) agonist. Corrects desquamation in acne
+5-fluorouracil (5-FU) MoA; Metabolized to active FdUMP that binds and inhibits thymidylate synthetase (primary mechansm). Triphosphorylated forms incorporate into RNA and DNA to hinder nucleic acid function. Efficacy enhanced with addition of leucovorin
+Aminolevulinic acid MoA; Produced ROS when exposed to blue light
+Imiquimod MoA; Toll-like receptor 7 (TLR-7) agonist. Stimulates innate and adaptive immune cells
+Triamcinolone uses; Anti-inflammatory and immunosuppression
+Tacrolimus uses; Psoriasis
+Calcipotriene uses; Psoriasis, actinic keratoses
+Mupirocin uses; Impetigo, skin infections, MRSA colonization
+Clindamycin uses; aerobic G+, and anaerobic G-,  including respiratory tract, skin, soft tissue, and MRSA
+Tretinoin uses; Acne
+5-fluorouracil (5-FU) uses; Actinic keratoses
+Aminolevulinic acid uses; Actinic keratoses
+Imiquimod uses; Actinic keratoses
+Triamcinolone adverse effects; Skin thinning
+Tacrolimus adverse effects; Flu-like symptoms, headache, skin irritation
+Calcipotriene adverse effects; Skin irritation, hypercalcemia
+Mupirocin adverse effects; Allergic reactions, skin irritation
+Clindamycin adverse effects; pseudomembranous enterocolitis
+Tretinoin adverse effects; Erythema, peeling, dry skin, sun sensitivity, teratogenic
+5-fluorouracil (5-FU) adverse effects; GI toxicity, myelosuppression
+Aminolevulinic acid adverse effects; Skn irritation
+Imiquimod adverse effects; Erythema, flaking, scabbing, edema, weeping, and erosion
