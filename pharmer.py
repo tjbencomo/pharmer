@@ -114,7 +114,7 @@ def make_cards(df):
 def write_cards_file(cards, sheet, filePrefix, tagPrefix):
     sheet = sheet.replace(' ', '_')
     fn = f"{filePrefix}_{sheet}.txt"
-    tag = f"tags:{tagPrefix}::PHARM_{sheet}"
+    tag = f"tags:{tagPrefix}::PHARM::{sheet}"
     print(f"Writing file {fn} with tag {tag} with {len(cards)} cards")
     with open(fn, 'w') as f:
         f.write(f"{tag}\n")
