@@ -68,6 +68,7 @@ def isEmpty(cell1, cell2):
 def make_cards(df):
     # Remove rows with missing prototype column
     df = df.dropna(subset = ['Prototypes'])
+    # print(df.columns)
     # print(df)
     cards = []
     typeCards = [] #list of drugs and their type
