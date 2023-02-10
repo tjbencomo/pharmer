@@ -1,0 +1,59 @@
+tags:CVS_2023::PHARM::Vascular_Control
+AChE inhibitor drugs; Pyridostigmine
+Muscarinic antagonist drugs; Atropine
+Adrenergic agonists drugs; Clonidine<br>Dobutamine<br>Dopamine<br>Epinephrine<br>Isoproterenol<br>Methyldopa<br>Midodrine<br>Norepinephrine<br>Phenylephrine
+Adrenergic antagonists drugs; Carvedilol<br>Doxazosin<br>Labetalol<br>Metoprolol<br>Phentolamine<br>Phenoxybenzamine<br>Propranolol
+Pyridostigmine MoA; Reversible inhibitor of acetylcholinesterase
+Atropine MoA; Non-selective muscarinic antagonist
+Clonidine MoA; α2 agonist in CNS - this results in decreased sympathetic outflow
+Dobutamine MoA; β1-adrenergic receptor agonist
+Dopamine MoA; Dopamine (D1)-adrenergic receptor agonist <br>(also α1 and β-adrenergic receptor agonist)
+Epinephrine MoA; α1, β1, and β2-adrenergic receptor agonist
+Isoproterenol MoA; Non-selective β-adrenergic receptor agonist
+Methyldopa MoA; Converted to alpha-methyl-norepinephrine, which acts as a selective agonist at α2 receptors in CNS - this results in decreased sympathetic outflow
+Midodrine MoA; α1-adrenergic receptor agonist
+Norepinephrine MoA; α and β-adrenergic receptor agonist
+Phenylephrine MoA; α1-adrenergic receptor agonist
+Carvedilol MoA; α1 and β-adrenergic receptor antagonist
+Doxazosin MoA; α1-adrenergic receptor antagonist
+Labetalol MoA; α1 and β-adrenergic receptor antagonist
+Metoprolol MoA; β1-adrenergic receptor antagonist
+Phentolamine MoA; Non-selective α-adrenergic receptor antagonist
+Phenoxybenzamine MoA; Non-selective covalent (long-acting) α-adrenergic receptor antagonist
+Propranolol MoA; Non-selective β-adrenergic receptor antagonist
+Pyridostigmine uses; Treatment of neurogenic orthostatic hypotension, treatment of myasthenia gravis
+Atropine uses; Reversal of vagal bradycardia, antitode for cholinesterase inhibitor toxicity
+Clonidine uses; Hypertension
+Dobutamine uses; Increases contractility in acute heart failure, cardiac stress testing
+Dopamine uses; Septic shock
+Epinephrine uses; Cardiac arrest, anaphylaxis
+Isoproterenol uses; Limited uses in bradycardia
+Methyldopa uses; Limited use as antihypertensive in pregnancy
+Midodrine uses; Chronic orthostatic hypotension
+Norepinephrine uses; Restoration of BP in acute hypotensive states (such as septic shock)
+Phenylephrine uses; Neurogenic shock, short-term vasoconstriction, decongestant
+Carvedilol uses; Systolic heart failure, hypertension, angina
+Doxazosin uses; Benign prostatic hyperplasia. hypertension (rare)
+Labetalol uses; pregnancy-induced hypertension, hypertensive crisis
+Metoprolol uses; Systolic heart failure, hypertension, angina
+Phentolamine uses; Treatment of extravasation of adrenergic agonists
+Phenoxybenzamine uses; Pheochromocytoma
+Propranolol uses; Angina. arrhythmias, essential tremor, performance anxiety, migraine
+Pyridostigmine adverse effects; Respiratory depression, bradycardia, lacrimation, diarrhea
+Atropine adverse effects; Tachycardia
+Clonidine adverse effects; Postural hypotension, bradycardia, sedation, dry mouth
+Dobutamine adverse effects; Tachycardia
+Dopamine adverse effects; Tachycardia, vasoconstriction, local necrosis
+Epinephrine adverse effects; Arrhythmia, extravasation necrosis
+Isoproterenol adverse effects; Tachycardia, hypotension
+Methyldopa adverse effects; Postural hypotension, bradycardia, sedation, dry mouth, impotence
+Midodrine adverse effects; Hypertension, bradycardia
+Norepinephrine adverse effects; Arrhythmia, extravasation necrosis
+Phenylephrine adverse effects; Hypertension, bradycardia
+Carvedilol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Doxazosin adverse effects; Orthostatic hypotension
+Labetalol adverse effects; Bradycardia, bronchoconstriction
+Metoprolol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Phentolamine adverse effects; Othostatic hypotension, tachycardia, nasal congestion
+Phenoxybenzamine adverse effects; Orthostatic hypotension, tachycardia, nasal congestion
+Propranolol adverse effects; Bradycardia, bronchoconstriction

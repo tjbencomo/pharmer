@@ -1,0 +1,42 @@
+tags:CVS_2023::PHARM::Heart_Failure
+Diuretics drugs; Furosemide
+RAAS drugs drugs; Lisinopril<br>Losartan<br>Spironolactone
+Beta blockers drugs; Metoprolol<br>Carvedilol
+Vasodilators drugs; Hydralazine<br>Isosorbide dinitrate<br>Sacubitril
+Inotropes drugs; Digoxin<br>Milrinone<br>Dobutamine
+Furosemide MoA; inhibits NKCC2 co-transporter
+Lisinopril MoA; Angiotensin converting enzyme inhibitor
+Losartan MoA; Angiotensin-II type I receptor antagonist
+Spironolactone MoA; aldosterone receptor antagonist
+Metoprolol MoA; β1-adrenergic receptor antagonist
+Carvedilol MoA; α1 and β-adrenergic receptor antagonist
+Hydralazine MoA; vascular smooth muscle K+ channel activator
+Isosorbide dinitrate MoA; Nitric oxide mechanism
+Sacubitril MoA; Neprilysin inhibitor
+Digoxin MoA; Inhibit Na+/K+ ATPase
+Milrinone MoA; Phosphodiesterase III inhibitor
+Dobutamine MoA; β1-adrenergic receptor agonist
+Furosemide uses; Heart failure with volume overload, edema, hypercalcemia, hypertension
+Lisinopril uses; Systolic heart failure, heart failure post acute coronary syndrome, hypertension, diabetic renal disease
+Losartan uses; Systolic heart failure, heart failure post acute coronary syndrome, hypertension
+Spironolactone uses; Systolic and Diastolic heart failure, hyperaldosteronism, hypertension
+Metoprolol uses; Systolic heart failure, hypertension, angina
+Carvedilol uses; Systolic heart failure, angina, hypertension
+Hydralazine uses; Systolic heart failure, angina, hypertensive crisis, pregnancy induced hypertension
+Isosorbide dinitrate uses; Systolic heart failure
+Sacubitril uses; Systolic heart failure
+Digoxin uses; Systolic heart failure, rate control of atrial fibrillation and atrial flutter
+Milrinone uses; Acute heart failure
+Dobutamine uses; Increases contractility in acute heart failure, cardiac stress testing
+Furosemide adverse effects; alkalosis, ototoxicity, electrolyte disorders (low K+, Na+, Mg2+), hyperuricemia
+Lisinopril adverse effects; Bradykinin cough reflex, hyperkalemia, teratogenic
+Losartan adverse effects; Hyperkalemia, teratogenic
+Spironolactone adverse effects; Hyperkalemia, endocrine effects
+Metoprolol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Carvedilol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Hydralazine adverse effects; Tachycardia, hypotension, headache
+Isosorbide dinitrate adverse effects; Tachycardia, hypotension, headache
+Sacubitril adverse effects; Hyperkalemia, cough, hypotension
+Digoxin adverse effects; Arrhythmia, vision disturbances
+Milrinone adverse effects; Arrhythmia
+Dobutamine adverse effects; Arrhythmia

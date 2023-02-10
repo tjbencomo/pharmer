@@ -1,0 +1,41 @@
+tags:CVS_2023::PHARM::Arrhythmias
+Cardiac glycoside drugs; Digoxin
+Antiarrhythmic Class IA drugs; Procainamide
+Antiarrhythmic Class IB drugs; Lidocaine
+Antiarrhythmic Class IC drugs; Flecainide
+Antiarrhythmic Class II drugs; Metoprolol
+Antiarrhythmic Class III drugs; Amiodarone<br>Dronaderone<br>Dofetilide<br>Sotalol
+Antiarrhythmic Class IV drugs; Verapamil
+Nucleotide receptor agonists drugs; Adenosine
+Digoxin MoA; Inhibit Na+/K+ ATPase
+Procainamide MoA; Inhibit Na+ channels
+Lidocaine MoA; Inhibit Na+ channels
+Flecainide MoA; Inhibit Na+ channels
+Metoprolol MoA; Inhibit β1-adrenergic receptors
+Amiodarone MoA; Inhibit K+ and Na+ channels
+Dronaderone MoA; Inhibit K+ and Na+ channels
+Dofetilide MoA; Inhibit K+ channels
+Sotalol MoA; Inhibit K+ channels and beta-adrenergic receptors
+Verapamil MoA; cardioselective L-type Ca2+ channel blocker
+Adenosine MoA; Activate adenosine receptors
+Digoxin uses; Systolic heart failure, rate control of atrial fibrillation and atrial flutter
+Procainamide uses; Atrial and ventricular tachycardias
+Lidocaine uses; Ventricular tachycardias
+Flecainide uses; Atrial tachycardias in patients with normal ventricular function
+Metoprolol uses; Atrial tachycardias
+Amiodarone uses; Atrial and ventricular tachycardias
+Dronaderone uses; Atrial and ventricular arrhythmias
+Dofetilide uses; Atrial arrhythmias
+Sotalol uses; Atrial and ventricular arrhythmias
+Verapamil uses; Mainly atrial arrhythmias. Also angina, hypertension
+Adenosine uses; Conversion of AV node dependent arrhythmias
+Digoxin adverse effects; Arrhythmias, vision disturbances
+Procainamide adverse effects; Arrhythmias, hypersensitivity reactions, Long QT
+Lidocaine adverse effects; CNS stimulation/depression
+Flecainide adverse effects; Arrhythmias
+Metoprolol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Amiodarone adverse effects; Long QT, hypotension, pulmonary fibrosis, hepatotoxicity, thyroid toxicity, corneal deposits
+Dronaderone adverse effects; Long QT, bradycardia
+Dofetilide adverse effects; Long QT
+Sotalol adverse effects; Long QT
+Verapamil adverse effects; Headache, bradycardia, constipation, edema

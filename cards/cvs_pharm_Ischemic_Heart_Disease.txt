@@ -1,0 +1,51 @@
+tags:CVS_2023::PHARM::Ischemic_Heart_Disease
+Anticoagulant drugs; Unfractionated Heparin<br>Enoxaparin
+Anti-platelets drugs; Clopidogrel<br>Epitifibatide <br>Acetylsalicylic acid
+Thrombolytics drugs; Alteplase<br>Streptokinase
+Beta blockers drugs; Metoprolol<br>Carvedilol
+Ca2+ channel blockers drugs; Diltiazem<br>Amlodipine
+Vasodilators drugs; Nitroglycerin
+Sodium current inhibitor drugs; Ranolazine
+Funny channel inhibitor drugs; Ivabradine
+Unfractionated Heparin MoA; Complexes with antithrombin III
+Enoxaparin MoA; Low molecular weight heparin
+Clopidogrel MoA; Non-competitive P2Y12 receptor antagonist (also known as a thienopyridine)
+Epitifibatide MoA; Glycoprotein IIb/IIIa antagonist
+Acetylsalicylic acid MoA; Non-selective, irreversible cyclooxygenase inhibitor
+Alteplase MoA; Converts plasminogen to plasmin
+Streptokinase MoA; Activates tPA
+Metoprolol MoA; β1-adrenergic receptor antagonist
+Carvedilol MoA; α1- and β-adrenergic receptor antagonist
+Diltiazem MoA; Cardioselective L-type Ca2+ channel blocker <br>(non-dihydropyridines)
+Amlodipine MoA; vascular selective L-type Ca2+ channel blocker
+Nitroglycerin MoA; Nitric oxide donor
+Ranolazine MoA; Inhibits the late phase of INa in cardiac muscle, thereby reducing diastolic wall tension and myocardial oxygen consumption
+Ivabradine MoA; Selective inhibition of If
+Unfractionated Heparin uses; Acute coronary syndromes, venous thrombosis, pulmonary embolism
+Enoxaparin uses; Acute coronary syndromes, venous thrombosis, pulmonary embolism
+Clopidogrel uses; Acute coronary syndromes, prevent stent thrombosis
+Epitifibatide uses; Acute coronary syndromes
+Acetylsalicylic acid uses; Acute coronary syndromes and stable atherosclerotic vascular disease.
+Alteplase uses; STEMI, pulmonary embolism, ischemic stroke
+Streptokinase uses; STEMI, pulmonary embolism
+Metoprolol uses; Systolic heart failure, hypertension, stable angina, acute coronary syndromes
+Carvedilol uses; Systolic heart failure, hypertension, stable angina, acute coronary syndromes
+Diltiazem uses; Angina, arrhythmias, hypertension
+Amlodipine uses; Angina, hypertension
+Nitroglycerin uses; Angina, acute coronary syndrome
+Ranolazine uses; Angina
+Ivabradine uses; Stable angina for patients who cannot take  β-blockers
+Unfractionated Heparin adverse effects; Bleeding, thrombocytopenia
+Enoxaparin adverse effects; Bleeding, thrombocytopenia
+Clopidogrel adverse effects; Bleeding, pruritis
+Epitifibatide adverse effects; Bleeding, thrombocytopenia
+Acetylsalicylic acid adverse effects; GI- and nephro-toxic, hypersensitivity reactions
+Alteplase adverse effects; Bleeding, cerebral hemorrhage
+Streptokinase adverse effects; Bleeding, cerebral hemorrhage
+Metoprolol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Carvedilol adverse effects; Bradycardia, AV block, fatigue, bronchoconstriction
+Diltiazem adverse effects; Headache, bradycardia, constipation
+Amlodipine adverse effects; hypotension, flushing, dizziness, peripheral edema
+Nitroglycerin adverse effects; Tachycardia, hypotension, flushing, headache
+Ranolazine adverse effects; Tachycardia, hypotension, flushing, headache
+Ivabradine adverse effects; Bradycardia, hypertension, visual brightness
