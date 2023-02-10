@@ -1,6 +1,18 @@
 # pharmer
 Python tool to convert UWSOM drug list info into Anki cards
 
+# Input
+The drug list must have the following columns:
+* `Type` - Also called Drug Family
+* `Prototypes` - Also called Prototype Drugs
+* `Mechanism of Action`
+* `Therapeutic Uses`
+* `Serious adverse effects`
+
+If any of these columns are missing or mispelled `pharmer` won't run!
+
+The column header row should also start on row 3. If the header is above or below row 3, `pharmer` won't run!
+
 # Usage
 ```
 Usage:
